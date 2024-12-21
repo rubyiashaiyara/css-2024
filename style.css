@@ -1,0 +1,48 @@
+/*h1=>Selector
+color=> Property
+red=>Value
+* => Universal Selector
+.=>class Selector
+#=>ID Seceltor 
+,=> group
+*/
+
+/* Some text */
+
+*{
+    margin:0;
+    color:white;
+    padding: 0;
+}
+h1{
+    color:red; /*=>Declaration*/
+    font-size: 60px; /*=>Declaration*/
+}
+p{
+    color: blue;
+    font-size:24px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+div p{
+    color:pink;
+}
+.text-bk{
+    color:greenyellow;
+    text-align: center;
+    background-color: yellow;
+    margin: 20px;
+}
+.first-div{
+  background:skyblue;  
+}
+.first-div p{
+    color:green;
+}
+#big-div,#big-div-2,.first-div{
+    width: 400px; 
+}
